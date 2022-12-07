@@ -1,0 +1,445 @@
+body 
+{
+  font-family: 'Montserrat', monospace;
+}
+
+/* CSS NAVBAR STARTS HERE */
+header
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: auto;
+}
+
+.navigationitemslist
+{
+	display: inline-block;
+	justify-content: stretch;
+	align-items: center;
+	margin-left: 3%;
+	margin-right: 3%;
+	color: #1767AC;
+}
+
+.navigationitemslist:hover
+{
+	margin-bottom: 1%;
+	font-weight: bold;
+	transition: ease 0.2s;
+	border-bottom: solid;
+	border-bottom-color: #b30000;
+}
+
+.logo
+{
+	display: flex;
+	flex-direction: row;
+	max-height: 70px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.navigationitems
+{
+	display: inline-block;
+	align-items: center;
+	align-content: stretch;
+	justify-content: space-around;
+	margin: auto;
+	flex-grow: 3;
+}
+
+.headerbutton
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.headerbuttonitem
+{
+	border: solid #b30000;
+	color: white;
+	background-color: #b30000;
+	border-radius: 2px;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px 15px 10px 15px;
+}
+
+.headerbuttonitem:hover
+{
+  border: solid #b30000;
+  color: #b30000;
+  background-color: white;
+}
+
+
+	
+/* CSS NAVBAR FINISHES HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.content001
+{
+	border-bottom: solid #b30000;
+	border-bottom-width: thin;
+	margin: 1%;
+}
+
+.buttonscontent001
+{
+	display: flex;
+	justify-content: center;
+	align-items:center
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.letstalkbuttoncontent001
+{
+  border: solid #b30000;
+  color: white;
+  background-color: #b30000;
+  border-radius: 2px;
+  padding: 16px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.letstalkbuttoncontent001:hover
+{
+  border: solid #b30000;
+  color: #b30000;
+  background-color: white;
+}
+
+.emailusbuttoncontent001
+{
+  border: solid #1767AC;
+  color: #1767AC;
+  background-color: white;
+  border-radius: 2px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.emailusbuttoncontent001:hover
+{
+  border: solid #1767AC;
+  color: white;
+  background-color: #1767AC;
+}
+
+/* CSS CONTENTANIMATED STARTS HERE 
+.contentanimated
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid #1767AC;
+	border-bottom-width: thin;
+	margin: 1%;
+}
+
+/* CSS CONTENTANIMATED ENDS HERE
+
+/* CSS CONTENT002 STARTS HERE
+.content002
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid #1767AC;
+	border-bottom-width: thin;
+	margin: 1%;
+}
+
+.totalsmsyear
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content002A
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+
+.content002B
+{
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content002C
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content002D
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+/* CSS CONTENT002 ENDS HERE
+
+/* CSS CONTENT003 STARTS HERE
+.content003
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 1%;
+}
+
+.content003A
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content003clients
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.content003B
+{
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content003C
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content003D
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content003E
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.content003F
+{
+	justify-content: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+/* CSS CONTENT003 ENDS HERE
+
+
+/* CSS FOOTER STARTS HERE
+
+.footer0
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: white;
+	border-top: solid #b30000;
+	border-top-width: thin;
+	margin: 1%;
+}
+
+.footercolumn
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	margin-right: 2%;
+	margin-left: 2%;
+	width: 150px;
+}
+
+.footerlist
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.footerul
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	margin-left: 0%;
+	list-style-type: none;
+	width: 125px;
+}
+
+.footerletstalkbutton001
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.footerletstalkbutton
+{
+  border: solid #1767AC;
+  color: white;
+  background-color: #1767AC;
+  border-radius: 2px;
+  padding: 16px 32px;
+  text-align: center;
+  display: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.footerletstalkbutton:hover
+{
+  border: solid #1767AC;
+  color: #1767AC;
+  background-color: white;
+  font-size: 13px;
+}
+/* CSS FOOTER ENDS HERE
+*/
