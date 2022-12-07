@@ -139,7 +139,7 @@ header
 
 
 
-/*
+
 .content001
 {
 	border-bottom: solid #b30000;
@@ -206,7 +206,7 @@ header
   background-color: #1767AC;
 }
 
-/* CSS CONTENTANIMATED STARTS HERE 
+/* CSS CONTENTANIMATED STARTS HERE */
 .contentanimated
 {
 	display: flex;
@@ -219,9 +219,9 @@ header
 	margin: 1%;
 }
 
-/* CSS CONTENTANIMATED ENDS HERE
+/* CSS CONTENTANIMATED ENDS HERE */
 
-/* CSS CONTENT002 STARTS HERE
+/* CSS CONTENT002 STARTS HERE */
 .content002
 {
 	display: flex;
@@ -280,9 +280,9 @@ header
 	margin-right: 3%;
 	margin-left: 3%;
 }
-/* CSS CONTENT002 ENDS HERE
+/* CSS CONTENT002 ENDS HERE */
 
-/* CSS CONTENT003 STARTS HERE
+/* CSS CONTENT003 STARTS HERE */
 .content003
 {
 	display: flex;
@@ -357,10 +357,10 @@ header
 	margin-left: 3%;
 }
 
-/* CSS CONTENT003 ENDS HERE
+/* CSS CONTENT003 ENDS HERE */
 
 
-/* CSS FOOTER STARTS HERE
+/* CSS FOOTER STARTS HERE */
 
 .footer0
 {
@@ -441,5 +441,4 @@ header
   background-color: white;
   font-size: 13px;
 }
-/* CSS FOOTER ENDS HERE
-*/
+/* CSS FOOTER ENDS HERE */
