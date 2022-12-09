@@ -438,9 +438,26 @@ li
 	display: inline-block;
 	justify-content: stretch;
 	align-items: center;
-	margin-left: 3%;
-	margin-right: 3%;
-	margin-bottom: 3%;
+	margin-left: 0.25em 0.75em;
+	color: #1767AC;
+}
+
+li:visited
+{
+	display: inline-block;
+	justify-content: stretch;
+	align-items: center;
+	margin-left: 0.25em 0.75em;
+	color: #1767AC;
+}
+
+li:active
+{
+	font-weight: bold;
+	display: inline-block;
+	justify-content: stretch;
+	align-items: center;
+	margin-left: 0.25em 0.75em;
 	color: #1767AC;
 }
 
@@ -468,10 +485,7 @@ li:hover
 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 2%;
-	margin-bottom: 5%;
-	margin-right: 2%;
-	margin-left: 2%;
+	margin-top: 1em;
 	width: 150px;
 }
 
@@ -480,10 +494,26 @@ li:hover
 	display: inline-block;
 	justify-content: stretch;
 	align-items: center;
-	margin-left: 3%;
-	margin-right: 3%;
-	margin-bottom: 5%;
-	color: #1767AC;
+	margin-left: 0.25em 0.75;
+	color:  #1767AC;
+}
+
+.footertitle:visited
+{
+	display: inline-block;
+	justify-content: stretch;
+	align-items: center;
+	margin-left: 0.25em 0.75;
+	color:  #1767AC;
+}
+
+.footertitle:active
+{
+	display: inline-block;
+	justify-content: stretch;
+	align-items: center;
+	margin-left: 0.25em 0.75;
+	color:  #1767AC;
 }
 
 .footertitle:hover
@@ -516,34 +546,40 @@ li:hover
 	flex-direction: column;
 	justify-content: center;
 	align-items:center
-	margin-top: 5%;
-	margin-bottom: 5%;
-	margin-right: 5%;
-	margin-left: 5%;
+	margin-top: 1em;
 }
 
 .footerletstalkbutton
 {
-  border: solid #1767AC;
+  border: solid #b30000;
   color: white;
-  background-color: #1767AC;
+  background-color: #b30000;
   border-radius: 2px;
-  padding: 16px 32px;
+  padding: 1em;
   text-align: center;
   display: center;
   align-items: center;
   cursor: pointer;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-top: 0.5em;
 }
 
 .footerletstalkbutton:hover
 {
-  border: solid #1767AC;
-  color: #1767AC;
+  border: solid #b30000;;
+  color: #b30000;;
   background-color: white;
-  font-size: 13px;
+  font-size: 0.8125em;
+}
+
+/* Responsive styles for narrow screens */
+@media only screen and (max-width: 600px) 
+{
+	.footer {
+	  flex-direction: column;
+	}
+  
+	.footercolumn {
+	  width: auto;
+	}
 }
 /* CSS FOOTER ENDS HERE */
