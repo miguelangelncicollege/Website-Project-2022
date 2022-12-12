@@ -3,89 +3,171 @@ body
   font-family: 'Montserrat', monospace;
 }
 
-/* CSS NAVBAR STARTS HERE */
-header
+/* CSSGRID NAVBAR STARTS HERE */
+.cssgridnavigationmain
 {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: center;
-	margin: auto;
+	display: grid;
+	grid-template-columns:12% 12% 12% 12% 12% 12% 12% auto;
+	grid-gap: 2%;
 }
 
-.navigationitemslist
+.cssgridnavigationitems001
 {
-	display: inline-flex;
-	margin-left: 3%;
-	margin-right: 3%;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+.cssgridnavigationitems002
+{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+
+.cssgridnavigationitems003
+{
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+}
+
+.cssgridnavigationitems004
+{
+	grid-column: 4 / 5;
+	grid-row: 1 / 2;
+}
+
+.cssgridnavigationitems005
+{
+	grid-column: 5 / 6;
+	grid-row: 1 / 2;
+}
+
+.cssgridnavigationitems006
+{
+	grid-column: 8 / 9;
+	grid-row: 1 / 2;
+}
+
+/* CSSGRID NAVBAR ENDS HERE */
+
+
+
+
+/* CSSGRID FOOTER STARTS HERE */
+.cssgridfootermain
+{
+	display: grid;
+	grid-template-columns: ;
+	grid-template-rows: ;
+	grid-gap: 2%, 2%;
+}
+
+.cssgridfooter001
+{
+	display: grid;
+	grid-row: 1 / 2;
+}
+
+.cssgridfooter002
+{
+	display: grid;
+	grid-column: 1 / 2;
+	grid-row: 2 / 2;
+}
+
+.cssgridfooter003
+{
+	display: grid;
+	grid-column: 2 / 3;
+	grid-row: 2/ 3;
+}
+
+.cssgridfooter004
+{
+	display: grid;
+	grid-column: 3 / 3;
+	grid-row: 2 / 4;
+}
+
+.cssgridfooter005
+{
+	display: grid;
+	grid-column: 4 / 5;
+	grid-row: 2 / 5;
+}
+
+li
+{
+	display: inline-block;
+	align-items: center;
+	color: #1767AC;
+	padding: 1%;
+}
+
+li:visited
+{
+	display: inline-block;
+	align-items: center;
 	color: #1767AC;
 }
 
-.navigationitemslist:hover
+li:hover
 {
-	margin-bottom: 1%;
 	font-weight: bold;
 	transition: ease 0.2s;
 	border-bottom: solid;
 	border-bottom-color: #b30000;
 }
 
-.logo
+li:active
 {
-	display: inline-flex;
-	max-height: 70px;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	padding-left: 2%;
-	padding-right: 2%;
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
-
-.navigationitems
-{
+	font-weight: bold;
 	display: inline-block;
 	align-items: center;
-	align-content: space-around;
-	justify-content: space-around;
-	margin: auto;
-	flex-grow: 3;
+	color: #1767AC;
 }
 
-.headerbutton
+ul
 {
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 3%;
-	margin-bottom: 3%;
+	list-style: none;
+	padding-left: 0%;
 }
 
-.headerbuttonitem
-{
-	border: solid #b30000;
-	color: white;
-	background-color: #b30000;
-	border-radius: 2px;
-	text-align: center;
-	cursor: pointer;
-	padding: 10px 15px 10px 15px;
-}
+/* CSSGRID FOOTER ENDS HERE */
 
-.headerbuttonitem:hover
-{
-  border: solid #b30000;
-  color: #b30000;
-  background-color: white;
-}
-/* CSS NAVBAR FINISHES HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CSS FORM STARTS HERE */
 .contactustitle
@@ -432,147 +514,9 @@ button:hover
 /* CSS CONTENT003 ENDS HERE */
 
 
-/* CSS FOOTER STARTS HERE */
-li
-{
-	display: inline-block;
-	justify-content: stretch;
-	align-items: center;
-	margin-left: 0.25em 0.75em;
-	color: #1767AC;
-}
-
-li:visited
-{
-	display: inline-block;
-	justify-content: stretch;
-	align-items: center;
-	margin-left: 0.25em 0.75em;
-	color: #1767AC;
-}
-
-li:active
-{
-	font-weight: bold;
-	display: inline-block;
-	justify-content: stretch;
-	align-items: center;
-	margin-left: 0.25em 0.75em;
-	color: #1767AC;
-}
-
-li:hover
-{
-	font-weight: bold;
-	transition: ease 0.2s;
-	border-bottom: solid;
-	border-bottom-color: #b30000;
-}
-
-.footer
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	background: white;
-	border-top: solid #b30000;
-	border-top-width: thin;
-	margin: 1%;
-}
-
-.footercolumn
-{
-	display: flex;
-	flex-direction: column;
-	margin-top: 1em;
-	width: 150px;
-}
-
-.footertitle
-{
-	display: inline-block;
-	justify-content: stretch;
-	align-items: center;
-	margin-left: 0.25em 0.75;
-	color:  #1767AC;
-}
-
-.footertitle:visited
-{
-	display: inline-block;
-	justify-content: stretch;
-	align-items: center;
-	margin-left: 0.25em 0.75;
-	color:  #1767AC;
-}
-
-.footertitle:active
-{
-	display: inline-block;
-	justify-content: stretch;
-	align-items: center;
-	margin-left: 0.25em 0.75;
-	color:  #1767AC;
-}
-
-.footertitle:hover
-{
-	font-weight: bold;
-	transition: ease 0.2s;
-	border-bottom: solid;
-	border-bottom-color: #b30000;
-}
-
-.footerlist
-{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-}
-
-.footerul
-{
-	display: flex;
-	flex-direction: column;
-	list-style-type: none;
-	padding: 0%; /*For some unknown reason if I delete this there is 40px of padding!*/
-	width: auto;
-}
-
-.footerletstalkbutton001
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items:center
-	margin-top: 1em;
-}
-
-.footerletstalkbutton
-{
-  border: solid #b30000;
-  color: white;
-  background-color: #b30000;
-  border-radius: 2px;
-  padding: 1em;
-  text-align: center;
-  display: center;
-  align-items: center;
-  cursor: pointer;
-  margin-top: 0.5em;
-}
-
-.footerletstalkbutton:hover
-{
-  border: solid #b30000;;
-  color: #b30000;;
-  background-color: white;
-  font-size: 0.8125em;
-}
-
+/*
 /* Responsive styles for narrow screens */
-@media only screen and (max-width: 600px) 
+/*@media only screen and (max-width: 600px) 
 {
 	.footer {
 	  flex-direction: column;

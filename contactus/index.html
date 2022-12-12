@@ -14,27 +14,24 @@
     <body onload = "messageNotSent()">
 	
 	<!-- NAVBAR STARTS HERE -->
-		<header>
-			<div class = "logo">
-			<a href = "../index.html"><img src = "../images/image000.png" alt = "Phonovation log of two red circles interlaced"></a>
-			</div>
-			<nav class = "navigationitems">
-				<a href = "../solutions/index.html"><p class = "navigationitemslist">Solutions</p></a>
-				<a href = "../resources/index.html"><p class = "navigationitemslist">Resources</p></a>
-				<a href = "../company/index.html"><p class = "navigationitemslist">Company</p></a>
-				<a href = "../contactus/index.html"><p class = "navigationitemslist">Contact Us</p></a>
-			</nav>
-			<div class = "headerbutton">
-				<a href = "#"><button class = "headerbuttonitem">Let's Talk</button></a>
-			</div>
+		<header class = "cssgridnavigationmain">
+			<a href = "../index.html"><img src = "../images/image000.png" alt = "Phonovation log of two red circles interlaced" class = "cssgridnavigationitems001"></a>
+				<p class = "cssgridnavigationitems002"><a href = "../solutions/index.html">Solutions</a></p>
+				<p class = "cssgridnavigationitems003"><a href = "../resources/index.html">Resources</a></p>
+				<p class = "cssgridnavigationitems004"><a href = "../company/index.html">Company</a></p>
+				<p class = "cssgridnavigationitems005"><a href = "../contactus/index.html">Contact Us</a></p>
+				<button class = "cssgridnavigationitems006"><a href = "#">Let's Talk</a></button>
 		</header>
 	<!-- NAVBAR ENDS HERE -->
 
-	<!-- TITLE STARTS HERE -->
-	<h1 class = "contactustitle">We would love to hear from you</h1>
-	<!-- TITLE ENDS HERE -->
+	<!-- CONTENT STARTS HERE -->
+		<main class = "cssgridcontent">
+			<h3 class = "cssgridcontent001"></h3>
+			<p class = "cssgridcontent002"></p>
+			<img src = "" alt = "" class = "cssgridcontent003"/>
+		</main>
 
-	<!-- FORM STARTS HERE -->
+		<!-- FORM STARTS HERE -->
 	<section class = "sectioncontactus" id = "sectioncontactusid">
 		<form class = "form">
 			<p>Subject</p>
@@ -47,61 +44,32 @@
 				<textarea placeholder = "Type your message here, please."></textarea>
 			<button type = "submit" onclick = "messageSent()">Submit</button>
 		</form>
-	<!-- FORM ENDS HERE -->
-
-	<!-- CONTENT001 STARTS HERE -->
-		<img class = "imagecontactus" src = "../images/image010.png" alt = "Image of a phone and a computer next to each other referencing a way to contact the company">
-	</section>
-	<div id = "messagesent"><h3>Thank you very much, your message has been sent</h3></div>
-	<!-- CONTENT001 ENDS HERE -->
-
+		<!-- FORM ENDS HERE -->
+	<!-- CONTENT ENDS HERE -->
 
 	<!-- FOOTER STARTS HERE -->
-	<footer>
-		<div class="footer">
-		  <div class="footercolumn">
-			<p>Ready to learn more?</p>
-			<div class="footerletstalkbutton001">
-			  <button class="footerletstalkbutton">Let's Talk</button>
-			</div>
-		  </div>
-		  <div class="footercolumn">
-			<a href="../solutions/index.html"><p class="footertitle">Solutions</p></a>
-			<div class="footerlist">
-			  <ul class="footerul">
-				<li><a href="../solutions/interactsms/index.html">InteractSMS</a></li>
-				<li><a href="../solutions/mobileid/index.html">MobileID</a></li>
-				<li><a href="../solutions/fps/index.html">FPS</a></li>
-			  </ul>
-			</div>
-		  </div>
-		  <div class="footercolumn">
-			<a href="../resources/index.html"><p class="footertitle">Resources</p></a>
-			<div class="footerlist">
-			  <ul class="footerul">
-				<li><a href="../documentation/index.html">Help Centre</a></li>
-			  </ul>
-			</div>
-		  </div>
-		  <div class="footercolumn">
-			<a href="../company/index.html"><p class="footertitle">Company</p></a>
-			<div class="footerlist">
-			  <ul class="footerul">
+		<footer class = "cssgridfootermain">
+			<p class = "cssgridfooter001">Ready to learn more?</p>
+			<button class = "cssgridfooter002">Let's Talk!</button>
+			<p class = "cssgridfooter001"><a href="../solutions/index.html">Solutions</a></p>
+				<ul class = "cssgridfooter003">
+					<li><a href="../solutions/interactsms/index.html">InteractSMS</a></li>
+					<li><a href="../solutions/mobileid/index.html">MobileID</a></li>
+					<li><a href="../solutions/fps/index.html">FPS</a></li>
+				</ul>
+			<p class = "cssgridfooter001"><a href="../resources/index.html">Resources</a></p>
+				<ul class = "cssgridfooter004">
+					<li><a href="../documentation/index.html">Help Centre</a></li>
+				</ul>
+			<p class="cssgridfooter001"><a href="../company/index.html">Company</a></p>
+			<ul class = "cssgridfooter005">
 				<li><a href="../company/ourstory/index.html">Our Story</a></li>
 				<li><a href="../company/awards/index.html">Awards</a></li>
 				<li><a href="../company/blog/index.html">Blog</a></li>
 				<li><a href="../company/careers/index.html">Careers</a></li>
-			  </ul>
-			</div>
-		  </div>
-		  <div class="footercolumn">
-			<p class="footertitle">System Status</p>
-		  </div>
-		  <div class="footercolumn">
-			<a href="../contactus/index.html"><p class="footertitle">Contact Us</p></a>
-		  </div>
-		</div>
-	  </footer>
+			</ul>
+			<p class = "cssgridfooter001"><a href="../contactus/index.html">Contact Us</a></p>
+		</footer>
 	<!-- FOOTER ENDS HERE -->
 
 	<!-- Javascript Starts Here -->
