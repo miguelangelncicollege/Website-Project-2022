@@ -11,7 +11,7 @@
 		<link rel = "stylesheet" href = "../styles/style.css"/>
         <title>Phonovation | A Leader Communication Company - Contact Us</title>
     </head>
-    <body onload = "messageNotSent()">
+    <body>
 	
 	<!-- NAVBAR STARTS HERE -->
 		<header class = "cssgridnavigationmain">
@@ -24,28 +24,24 @@
 		</header>
 	<!-- NAVBAR ENDS HERE -->
 
-	<!-- CONTENT STARTS HERE -->
-		<main class = "cssgridcontent">
-			<h3 class = "cssgridcontent001"></h3>
-			<p class = "cssgridcontent002"></p>
-			<img src = "" alt = "" class = "cssgridcontent003"/>
+	<!-- CONTENT001 STARTS HERE -->
+		<main class = "cssgridcontentcontactus">
+				<form class = "cssgridcontentcontactus001" action = "https://formspree.io/f/mdojqryv"
+				method = "POST">
+					<h3>We would love to hear from you!</h3>
+					<p class = "contactformsupertitle">Subject</p>
+						<input type = "subject" name = "subject" placeholder = "Enter your subject here, please"/>
+					<p class = "contactformsupertitle">Name</p>
+						<input type = "text" name = "name" placeholder = "Enter your name here, please"/>
+					<p class = "contactformsupertitle">Email</p>
+						<input type = "email" name = "email" placeholder = "Enter your email address here, please"/>
+					<p class = "contactformsupertitle">Message</p>
+						<textarea placeholder = "Type your message here, please." name = "message"></textarea>
+					<button type = "submit" class = "cssgridcontentcontactus002"onclick = "messageSent()">Submit</button>
+				</form>
+			<img src = "../images/image010.png" alt = "A phone and a laptop open communicating with each other through sms, mails and voice" class = "cssgridcontentcontactus003">
 		</main>
-
-		<!-- FORM STARTS HERE -->
-	<section class = "sectioncontactus" id = "sectioncontactusid">
-		<form class = "form">
-			<p>Subject</p>
-				<input type = "subject" placeholder = "Enter your subject here, please"/>
-			<p>Name</p>
-				<input type= "text" placeholder = "Enter your name here, please"/>
-			<p>Email</p>
-				<input type= "email" placeholder = "Enter your email address here, please"/>
-			<p>Message</p>
-				<textarea placeholder = "Type your message here, please."></textarea>
-			<button type = "submit" onclick = "messageSent()">Submit</button>
-		</form>
-		<!-- FORM ENDS HERE -->
-	<!-- CONTENT ENDS HERE -->
+	<!-- CONTENT001 ENDS HERE -->
 
 	<!-- FOOTER STARTS HERE -->
 		<footer class = "cssgridfootermain">

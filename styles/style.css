@@ -3,18 +3,31 @@ body
   font-family: 'Montserrat', monospace;
 }
 
+a
+{
+	text-decoration: none;
+	color: #1767AC;
+}
+
+p
+{
+	text-decoration: none;
+}
+
 /* CSSGRID NAVBAR STARTS HERE */
 .cssgridnavigationmain
 {
 	display: grid;
-	grid-template-columns:12% 12% 12% 12% 12% 12% 12% auto;
+	grid-template-columns:12% 12% 12% 12% 12% auto 12%;
 	grid-gap: 2%;
+	justify-items: center;
 }
 
 .cssgridnavigationitems001
 {
 	grid-column: 1 / 2;
 	grid-row: 1 / 2;
+	align-self: center;
 }
 
 .cssgridnavigationitems002
@@ -23,10 +36,26 @@ body
 	grid-row: 1 / 2;
 }
 
+.cssgridnavigationitems002:hover
+{
+	font-weight: bold;
+	transition-duration: 0.2s;
+	border-bottom: solid 0.7px;
+	border-bottom-color: #b30000;
+}
+
 .cssgridnavigationitems003
 {
 	grid-column: 3 / 4;
 	grid-row: 1 / 2;
+}
+
+.cssgridnavigationitems003:hover
+{
+	font-weight: bold;
+	transition-duration: 0.2s;
+	border-bottom: solid 0.7px;
+	border-bottom-color: #b30000;
 }
 
 .cssgridnavigationitems004
@@ -35,43 +64,403 @@ body
 	grid-row: 1 / 2;
 }
 
+.cssgridnavigationitems004:hover
+{
+	font-weight: bold;
+	transition-duration: 0.2s;
+	border-bottom: solid 0.7px;
+	border-bottom-color: #b30000;
+}
+
 .cssgridnavigationitems005
 {
 	grid-column: 5 / 6;
 	grid-row: 1 / 2;
 }
 
+.cssgridnavigationitems005:hover
+{
+	font-weight: bold;
+	transition-duration: 0.2s;
+	border-bottom: solid 0.7px;
+	border-bottom-color: #b30000;
+}
+
 .cssgridnavigationitems006
 {
-	grid-column: 8 / 9;
+	grid-column: 7 / 8;
 	grid-row: 1 / 2;
+	width: 70%;
+	height: 70%;
+	align-self: center;
+
+	border: solid #1767AC;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
 }
+
+.cssgridnavigationitems006:hover
+{
+	border: solid #1767AC;
+	color: #1767AC;
+	background-color: white;
+}
+
 /* CSSGRID NAVBAR ENDS HERE */
 
-/* CSSGRID CONTENT STARTS HERE */
+/* CSSGRID CONTENT001 STARTS HERE */
+.cssgridcontent001
+{
+	display: grid;
+	grid-template-rows: 15% 15% 15%;
+	grid-template-columns: 30% 30% auto;
+	padding-top: 5%;
+}
 
-/* CSSGRID CONTENT ENDS HERE */
+.cssgridcontent001A
+{
+	display: grid;
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+	align-self: center;
+	justify-self: center;
+	padding-left:0%;
+	margin-left: 0%;
+}
+
+.cssgridcontent001B
+{
+	grid-column: 1 / 2;
+	grid-row: 2 / 2;
+	align-self: flex-start;
+	justify-self: right;
+	width: 40%;
+	height: 25%;
+	margin-top: 5%;
+	margin-right: 5%;
+
+	border: solid #b30000;
+	color: white;
+	background-color: #b30000;
+	border-radius: 2px;
+	padding: 16px 32px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.cssgridcontent001B:hover
+{
+	border: solid #b30000;
+	color: #b30000;
+	background-color: white;
+	font-size: 15px;
+	padding: auto;
+	transition: 0.5s;
+}
+
+.cssgridcontent001C
+{
+	grid-column: 2 / 2;
+	grid-row: 2 / 3;
+	align-self: flex-start;
+	justify-self: left;
+	width: 40%;
+	height: 25%;
+	margin-top: 5%;
+	margin-left: 5%;
+
+	border: solid #1767AC;
+	color: #1767AC;
+	background-color: white;
+	border-radius: 2px;
+	padding: 16px 32px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.cssgridcontent001C:hover
+{
+	border: solid #1767AC;
+	color: white;
+	background-color: #1767AC;
+	font-size: 15px;
+	padding: auto;
+	transition: 0.5s;
+}
+
+.cssgridcontent001D
+{
+	grid-column: 3 / 4;
+	grid-row: 3 / 1;
+	align-self: center;
+	justify-self: center;
+	width: 580px;
+	height: auto;
+}
+
+.cssgridcontent001E
+{
+	display: grid;
+	grid-column: 1 / 3;
+	grid-row: 2 / 2;
+	align-self: center;
+	justify-self: center;
+	padding-left:3%;
+	margin-left: 3%;
+}
+/* CSSGRID CONTENT001 ENDS HERE */
+
+/* CSSGRID CONTENT002 STARTS HERE */
+.cssgridcontent002
+{
+	display: grid;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	align-content: center;
+	margin-top: 6%;
+	border-top: solid #b30000;
+	border-bottom-width: thin;
+	padding-top: 5%;
+}
+
+.cssgridcontent002A
+{
+	display: grid;
+	grid-column: 1 / 6;
+	grid-row: 1 / 2;
+	align-self: center;
+	justify-self: center;
+}
+
+.cssgridcontent002B
+{
+	grid-column: 1 / 6;
+	grid-row: 2 / 3;
+	align-self: center;
+	justify-self: center;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.cssgridcontent002C
+{
+	grid-column: 1 / 6;
+	grid-row: 3 / 3;
+	align-self: center;
+	justify-self: center;
+}
+
+.cssgridcontent002D
+{
+	grid-column: 1 / 6;
+	grid-row: 4 / 4;
+	align-self: center;
+	justify-self: center;
+	width: auto;
+	height: auto;
+}
+
+/* CSSGRID CONTENT002 ENDS HERE */
+
+/* CSSGRID CONTENT003 STARTS HERE */
+.cssgridcontent003
+{
+	display: grid;
+	grid-template-rows: 15% 15% 15%;
+	grid-template-columns: auto auto auto;
+	align-content: center;
+	margin-top: 6%;
+	border-top: solid #1767AC;
+	border-bottom-width: thin;
+	padding-top: 5%;
+}
+
+.cssgridcontent003A
+{
+	grid-column: 1 / 4;
+	grid-row: 1 / 2;
+	align-self: center;
+	justify-self: center;
+}
+
+.cssgridcontent003B
+{
+	grid-column: 1 / 2;
+	grid-row: 2 / 2;
+	align-self: center;
+	justify-self: center;
+}
+
+.cssgridcontent003C
+{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	align-self: center;
+	justify-self: center;
+}
+
+.cssgridcontent003D
+{
+	grid-column: 3 / 3;
+	grid-row: 2 / 3;
+	align-self: center;
+	justify-self: center;
+}
+
+/* CSSGRID CONTENT003 ENDS HERE */
+
+/* CSSGRID CONTENTSOLUTIONS STARTS HERE */
+.cssgridcontentsolutions001
+{
+	display: grid;
+	grid-template-rows: 15% 15% 15%;
+	grid-template-columns: 30% 30% auto;
+	padding-top: 5%;
+}
+
+.cssgridcontentsolutions002
+{
+	display: grid;
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+	align-self: center;
+	justify-self: center;
+	padding-left:0%;
+	margin-left: 0%;
+}
+
+.cssgridcontentsolutions003
+{
+	display: grid;
+	grid-column: 1 / 3;
+	grid-row: 2 / 2;
+	align-self: center;
+	justify-self: center;
+	padding-left:0%;
+	margin-left: 0%;
+}
+
+.cssgridcontentsolutions004
+{
+	grid-column: 1 / 3;
+	grid-row: 3 / 3;
+	justify-self: center;
+	width: 40%;
+	height: 25%;
+	margin-top: 5%;
+	margin-right: 5%;
+
+	border: solid #b30000;
+	color: white;
+	background-color: #b30000;
+	border-radius: 2px;
+	padding: 16px 32px;
+	text-align: center;
+	cursor: pointer;	
+}
+/* CSSGRID CONTENTSOLUTIONS ENDS HERE */
+
+/* CSSGRID CONTENTCONTACTUS STARTS HERE */
+.cssgridcontentcontactus
+{
+	display: grid;
+	grid-template-rows: 15% 15%;
+	grid-template-columns: 60% auto;
+	align-content: center;
+	padding-top: 5%;
+}
+
+.cssgridcontentcontactus001
+{
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	align-self: center;
+	justify-self: center;
+}
+
+.cssgridcontentcontactus002
+{
+	max-width: 92%;
+	padding: 2%;
+	background-color: #b30000;
+	color: white;
+	border: solid #b30000;
+	border-radius: 5px;
+	cursor: pointer;
+	width:inherit;
+}
+
+.cssgridcontentcontactus002:hover
+{
+	border: solid #b30000;
+	color: #b30000;
+	background-color: white;
+}
+
+.cssgridcontentcontactus003
+{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	align-self: center;
+	justify-self: center;
+	width: 533px;
+	height: auto;
+}
+
+/* CSSGRID CONTENTCONTACTUS ENDS HERE */
+
 
 /* CSSGRID FOOTER STARTS HERE */
 .cssgridfootermain
 {
 	display: grid;
-	grid-template-columns: ;
-	grid-template-rows: ;
-	grid-gap: 2%, 2%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+	grid-template-columns: auto auto auto auto auto;
+	justify-items: center;
+	margin-top: 6%;
+	border-top: solid #b30000;
+	border-bottom-width: thin;
+	padding-top: 5%;
 }
 
 .cssgridfooter001
 {
 	display: grid;
 	grid-row: 1 / 2;
+	justify-items: baseline;
+	color: #1767AC;
+	font-weight: bold;
+}
+
+.cssgridfooter001:hover
+{
+	transition-duration: 0.2s;
+	border-bottom: solid 1px;
+	border-bottom-color: #b30000;
 }
 
 .cssgridfooter002
 {
-	display: grid;
+	/*display: grid;*/ /*Not sure if I need to put it or not*/
 	grid-column: 1 / 2;
 	grid-row: 2 / 2;
+	width: 40%;
+	height: 40%;
+	margin-top: 5%;
+
+	border: solid #b30000;
+	color: white;
+	background-color: #b30000;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.cssgridfooter002:hover
+{
+	border: solid #b30000;
+	color: #b30000;
+	background-color: white;
 }
 
 .cssgridfooter003
@@ -97,32 +486,26 @@ body
 
 li
 {
-	display: inline-block;
-	align-items: center;
 	color: #1767AC;
-	padding: 1%;
+	padding-bottom: 5%;
 }
 
 li:visited
 {
-	display: inline-block;
-	align-items: center;
 	color: #1767AC;
 }
 
 li:hover
 {
 	font-weight: bold;
-	transition: ease 0.2s;
-	border-bottom: solid;
+	transition-duration: 0.2s;
+	border-bottom: solid 0.7px;
 	border-bottom-color: #b30000;
 }
 
 li:active
 {
 	font-weight: bold;
-	display: inline-block;
-	align-items: center;
 	color: #1767AC;
 }
 
@@ -130,400 +513,42 @@ ul
 {
 	list-style: none;
 	padding-left: 0%;
+	justify-items: baseline;
 }
 
 /* CSSGRID FOOTER ENDS HERE */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS FORM STARTS HERE */
-.contactustitle
+.contactformsupertitle
 {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin-left: 5%;
-}
-
-.sectioncontactus
-{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-}
-
-.imagecontactus
-{
-	display:flex;
-	max-width: 40%;
+	font-size: smaller;
 }
 
 form 
 {
-	display: flex;
-	flex-direction: column;
-	align-items: baseline;
 	width: 100%;
-	padding: 1%;
 	border-radius: 5px;
-	max-width: 50%;
-	margin-left: 5%;
+	max-width: 75%;
 }
 
-input, textarea 
+input
 {
 	width: 90%;
-	padding: 8px;
-	margin-bottom: 10px;
+	padding: 1%;
+	margin-bottom: 1%;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 }
 
 textarea 
 {
-	height: 150px;
+	height: 80px;
 	width: 90%;
-}
-
-button 
-{
-	width: 90%;
-	padding: 2%;
-	background-color: #b30000;
-	color: #fff;
-	border: solid #b30000;
+	padding: 1%;
+	margin-bottom: 1%;
+	border: 1px solid #ccc;
 	border-radius: 5px;
-	cursor: pointer;
 }
 
-button:hover 
-{
-	border: solid #b30000;
-	color: #b30000;
-	background-color: white;
-}
-
-/* message container */
-#messagesent 
-{
-	margin-top: 10px;
-	padding: 10px;
-	background-color: #00bfff;
-	color: #fff;
-	text-align: center;
-	border-radius: 5px;
-	display: none; /* hide the message by default */
-  }
+/*Back-end of the form is hosted in https://formspree.io*/
 /* CSS FORM ENDS HERE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.content001
-{
-	border-bottom: solid #b30000;
-	border-bottom-width: thin;
-	margin: 1%;
-}
-
-.buttonscontent001
-{
-	display: flex;
-	justify-content: center;
-	align-items:center
-	margin-top: 2%;
-	margin-bottom: 2%;
-	margin-right: 2%;
-	margin-left: 2%;
-}
-
-.letstalkbuttoncontent001
-{
-  border: solid #b30000;
-  color: white;
-  background-color: #b30000;
-  border-radius: 2px;
-  padding: 16px 32px;
-  text-align: center;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  margin-right: 3%;
-  margin-left: 3%;
-}
-
-.letstalkbuttoncontent001:hover
-{
-  border: solid #b30000;
-  color: #b30000;
-  background-color: white;
-}
-
-.emailusbuttoncontent001
-{
-  border: solid #1767AC;
-  color: #1767AC;
-  background-color: white;
-  border-radius: 2px;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  margin-right: 3%;
-  margin-left: 3%;
-}
-
-.emailusbuttoncontent001:hover
-{
-  border: solid #1767AC;
-  color: white;
-  background-color: #1767AC;
-}
-
-/* CSS CONTENTANIMATED STARTS HERE */
-.contentanimated
-{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	border-bottom: solid #1767AC;
-	border-bottom-width: thin;
-	margin: 1%;
-}
-
-/* CSS CONTENTANIMATED ENDS HERE */
-
-/* CSS CONTENT002 STARTS HERE */
-.content002
-{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	border-bottom: solid #1767AC;
-	border-bottom-width: thin;
-	margin: 1%;
-}
-
-.totalsmsyear
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content002A
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-
-.content002B
-{
-	justify-content: center;
-	align-items: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content002C
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content002D
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-/* CSS CONTENT002 ENDS HERE */
-
-/* CSS CONTENT003 STARTS HERE */
-.content003
-{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	margin: 1%;
-}
-
-.content003A
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content003clients
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-}
-
-.content003B
-{
-	justify-content: center;
-	align-items: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content003C
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content003D
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content003E
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-.content003F
-{
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	margin-right: 3%;
-	margin-left: 3%;
-}
-
-/* CSS CONTENT003 ENDS HERE */
-
-
-/*
-/* Responsive styles for narrow screens */
-/*@media only screen and (max-width: 600px) 
-{
-	.footer {
-	  flex-direction: column;
-	}
-  
-	.footercolumn {
-	  width: auto;
-	}
-}
-/* CSS FOOTER ENDS HERE */
